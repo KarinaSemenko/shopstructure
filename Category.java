@@ -2,9 +2,6 @@ package org.itgroup.shop.telegram;
 
 public class Category {
 
-    private String cclass;
-    private int pro;
-
     protected int id;
     protected String name;
 
@@ -22,19 +19,5 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getCclass() {
-        return cclass;
-    }
-
-    public void setCclass(String cclass) {
-        this.cclass = cclass;
-    }
-    public int getPro(){
-        return pro;
-    }
-    public void setPro(int pro){
-        this.pro = pro;
     }
 }
